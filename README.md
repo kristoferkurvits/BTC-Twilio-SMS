@@ -16,6 +16,7 @@ SMS functioniality is provided by Twilio.
 
 #### **How to run it?**
 Create Twilio account and add environment variables
+
 TWILIO_ACCOUNT_SID=
 
 TWILIO_AUTH_TOKEN=
