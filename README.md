@@ -8,14 +8,12 @@ User enters his/hers phone number, lower bound and upper bound through POST requ
 
 POST /users {"phoneNumber": "+372XXXXXXX", "upperBound": X, "lowerBound": X}
 
-Wait for notification (◍•ᴗ•◍)
-
-It is possible to send regular SMS through POST /send {"phoneNumber": "+372XXXXXXX", "message": "XXXXX"}
+It is possible to send regular SMS through POST /send {"phoneNumber": "+372XXXXXXX", "message": "X"}
 
 SMS functioniality is provided by Twilio.
 
 #### **How to run it?**
-Create Twilio account and add environment variables
+Create a Twilio account and add environment variables
 
 TWILIO_ACCOUNT_SID=
 
@@ -25,6 +23,7 @@ TWILIO_TRIAL_NUMBER=
 
 * Clone repo
 * java -jar target/BTCTwilioSMS-0.0.1-SNAPSHOT.jar
-
+* Make a POST request
+* Wait for notification
 
 
